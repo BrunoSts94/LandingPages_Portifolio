@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">rectangle area calculator</string>
+    <String name="base">Base value:</String>
+    <String name="altura">Height value:</String>
+    <string name="Calcular">Calculate</string>
+    <string name="Limpar">Clear</string>
+    <string name="Resultado">Result: </string>
+    <string name="erroBase">You did not enter the base or height value.</string>
+    <string name="textoResultado">The area of the rectangle is equal to: </string>
+</resources>

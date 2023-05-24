@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculadora de área de retângulo</string>
+    <string name="base" >Valor da base: </string>
+    <string name="altura" >Valor da altura:</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Limpar">Limpar</string>
+    <string name="Resultado">Resultado: </string>
+    <string name="erroBase">Voce não digitou o valor da base ou altura.</string>
+    <string name="textoResultado">A area do retângulo é igual a: </string>
+</resources>

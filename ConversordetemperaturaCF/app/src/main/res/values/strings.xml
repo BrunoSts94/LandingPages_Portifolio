@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Conversor de temperatura C-F</string>
+
+    <string name="celsius">Graus Celsius:</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
+    <string name="fahrenheit">Fahrenheit:</string>
+
+</resources>

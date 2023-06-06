@@ -45,7 +45,7 @@ header p {
     font-size: 1.1em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
     text-align: center;
-    
+    padding-bottom: 30px;
 }
 
 nav {

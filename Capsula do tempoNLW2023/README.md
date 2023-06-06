@@ -10,4 +10,5 @@ Esse projeto foi desenvolvido durante o NLW da Rocketseat com as seguintes tecno
 - HTML
 - CSS
 - Git e Github
+- 
 <a href="https://brunosts94.github.io/MeuPortifolio/Capsula%20do%20tempoNLW2023/index.html">Visualize o Site aqui

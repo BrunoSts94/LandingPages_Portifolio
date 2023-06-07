@@ -7,4 +7,4 @@ Esse projeto foi desenvolvido durante Curso de HTML5,CSS3 e Javascript do Curso 
 - CSS3
 - Git e Github
 
-<a href="https://brunosts94.github.io/MeuPortifolio//index.html" target="_blank"> Visualize o Site aqui
+<a href="https://brunosts94.github.io/MeuPortifolio/proj-parallax/index.html" target="_blank"> Visualize o Site aqui

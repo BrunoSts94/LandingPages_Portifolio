@@ -3,7 +3,7 @@
 cor1 -  #0c1f94 Azul escuro
 cor2 - #2197b0 Azul agua
 cor3 - #196ce7 Azul claro
-*/
+*/ 
 :root {
     --cor1:#0c1f94;
     --cor2:#196ce7;
@@ -19,7 +19,7 @@ cor3 - #196ce7 Azul claro
 
 html{
     height: 100%;
-    background-image: linear-gradient(to bottom, #135b69, #2ac5e4);
+    background-image: linear-gradient(to bottom, #1b8094, #46e0ff);
 }
 
 /*body {
@@ -34,7 +34,7 @@ main {
 }
 
 section#login {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 250px;
     height: 500px;
     border-radius: 20px;

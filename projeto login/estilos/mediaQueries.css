@@ -14,6 +14,12 @@ Grandes telas: 1201px ++
     body {
         background-image: linear-gradient(to bottom, #0c1e9485 , #136170, #2db6d1);
     }
+
+    #formulario > p {
+        text-align: center;
+        margin: 10px 0px
+    }
+
     section#login {
         width:80vw
     }
@@ -32,6 +38,12 @@ Grandes telas: 1201px ++
     body {
         background-image: linear-gradient(to bottom, #0c1e9485 , #136170, #2db6d1);
     }
+
+    #formulario > p {
+        text-align: center;
+        margin: 10px 0px
+    }
+    
     section#login {
         width: 950px;
     }

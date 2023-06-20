@@ -17,14 +17,10 @@ cor3 - #196ce7 Azul claro
     /*box-sizing: border-box;*/
 }
 
-html{
+html, body {
     height: 100vh;
+    width: 100vw;
     background-image: linear-gradient(to bottom, #146575, #34d2f1);
-}
-
-body {
-    height: 100vh;
-    background-color: transparent;
 }
 
 main {

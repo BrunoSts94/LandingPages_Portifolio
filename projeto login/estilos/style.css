@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*
+cor1 -  #0c1f94 Azul escuro
+cor2 - #2197b0 Azul agua
+cor3 - #196ce7 Azul claro
+*/
+:root {
+    --cor1:#0c1f94;
+    --cor2:#196ce7;
+    --cor3:#2197b0;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    /*box-sizing: border-box;*/
+}
+
+html{
+    height: 100%;
+    background-image: linear-gradient(to bottom, #135b69, #2ac5e4);
+}
+
+/*body {
+    min-height: 100%;
+    background-color: transparent;
+}*/
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    background-color: aliceblue;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden; /*comando para arredondar o canto da imagem, (tudo que estiver fora da borda, desse container, vai ficar escondido)*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+}
+section#login > div#imagem {
+    background: url(../imagens/gerenfacil.png) no-repeat;
+    background-size: contain;
+    height: 200px;
+    display: block;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}

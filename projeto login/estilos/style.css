@@ -19,11 +19,11 @@ cor3 - #196ce7 Azul claro
 
 html{
     height: 100%;
-    background-image: linear-gradient(to bottom, #1b8094, #46e0ff);
+    background-image: linear-gradient(to bottom, #146575, #34d2f1);
 }
 
 body {
-    min-height: 100vh;
+    height: 100vh;
     background-color: transparent;
 }
 

@@ -1,7 +1,3 @@
-<p align="center">
-  <img src=".github/preview.png" width="100%"/>
-</p>
-
 ## 📝 Projeto
 Esse é um projeto web responsivo , onde é explorado a funcionalidades dos Iframes.
 ## 📱 Tecnologias

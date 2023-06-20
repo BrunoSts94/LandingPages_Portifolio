@@ -22,10 +22,10 @@ html{
     background-image: linear-gradient(to bottom, #1b8094, #46e0ff);
 }
 
-/*body {
+body {
     min-height: 100%;
     background-color: transparent;
-}*/
+}
 
 main {
     position: relative;

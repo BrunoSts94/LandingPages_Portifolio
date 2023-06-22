@@ -1,4 +1,4 @@
-<h1>📝 Projeto Login</h1>
+<h1>📝 Projeto</h1>
 <p>Este projeto foi desenvolvido durante o curso de HTML5 e CSS3 do Curso em video.</p>
 
 <p>Seu objetivo foi de criar uma tela de login responsiva, utilizando a metodologia Mobile first.</p>

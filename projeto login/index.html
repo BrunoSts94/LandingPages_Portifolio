@@ -13,26 +13,30 @@
 <body>
     <main>
         <section id="login">
-            <div id="imagem"></div>
             
+            <div id="imagem"></div>
+
             <div id="formulario">
                 <h1>LOGIN</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem-vindo(a)! Faça login para acessar sua conta.</p>
                 <form action="formulario.php" method="post" autocomplete="on">
-                    <div class="campo">
+
+                    <div class="campo" >
                         <span class="material-icons">person</span>
                         <input type="email" name="email" id="idEmail" placeholder="Digite seu e-mail" autocomplete="email" required maxlength="30">
-                        <label for="idEmail">E-mail</label>
+                        <label for="idEmail"></label>
                     </div>
 
                     <div class="campo">
                         <span class="material-icons">vpn_key</span>
                         <input type="password" name="senha" id="idSenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="6" required maxlength="6">
-                        <label for="idSenha">Senha</label>
+                        <label for="idSenha"></label>
                     </div>
 
-                    <input type="submit" class="botao">
-                    <a href="esqueci.html" >Esqueci a senha<span class="material-icons">mail</span></a> 
+                <input type="submit" class="botao">
+
+                <a href="esqueci.html"><p>Esqueci a senha
+                <span class="material-icons">mail</span></p></a> 
                     
                     
                 </form>

@@ -14,7 +14,7 @@ cor3 - #196ce7 Azul claro
     font-family: 'verdana', 'Arial Narrow', Arial, sans-serif;
     padding: 0px;
     margin: 0px;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 html, body {
@@ -38,7 +38,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-   
     overflow: hidden; /*comando para arredondar o canto da imagem, (tudo que estiver fora da borda, desse container, vai ficar escondido)*/
 
     background-color: rgb(255, 255, 255);
@@ -47,7 +46,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
     transition: width 1s, height 0.3s;
-     transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {

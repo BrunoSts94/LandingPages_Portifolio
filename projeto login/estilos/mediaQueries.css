@@ -10,29 +10,54 @@ Desktops: 1025px — 1400px.
 Grandes telas: 1201px ++
 */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    body {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    html, body {
         background-image: linear-gradient(to bottom, #0c1e9485 , #136170, #2db6d1);
+    }
+
+    section#login {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80vw;
+        height: 280px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        transform: translate(-50%, -50%);
+    }
+
+    section#login > div#imagem {
+        background:#146575 url(../imagens/gerenfacil-pq.png);
+        background-size: contain;
+        background-position: center center;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        background-color: #ffffff;
+        width: 70%;
+        float: right;
+        padding: 10px;
+    }
+
+    div#formulario > h1{
+        text-align: center;
+    }
+
+    div#formulario > p{
+        text-align: center;
     }
 
     #formulario > p {
         text-align: center;
-        margin: 10px 0px
-    }
-
-    section#login {
-        width:80vw
-    }
-
-    section#login > div#imagem {
-        float: left;
-        width: 40%;
-        height: 100%;
-        background-position: center center;
+        margin: 10px 0px 
     }
 
     .botao {
-            padding: 2px;
+            padding: 1px;
             display: block;
             font-size: 1em;
             background-color: #2197b0;
@@ -43,40 +68,177 @@ Grandes telas: 1201px ++
             width: 100%;
             height: 40px;
             cursor: pointer;
-            
-        
+            margin-top: 10px;
     }
 
+    div.campo {
+        background-color: #0c1f94;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        height: 40px;
+    }
+
+    div.campo span {
+        color: white;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+
+    div.campo input {
+        width: calc(100% - 49px);
+        height: 35px;
+        border-radius: 8px;
+        position: relative;
+        top: -4px;
+    }
+
+    form > a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 5px;
+        border: 1px solid #29c3e2;
+        border-radius: 5px;
+    }
+    form > a:hover {
+        background-color: #4fe2ff;
+        border-radius: 5px;
+    }
+    
+    form > a > span {
+        font-size: 0.1em;
+        
+    }
     
 }
 
+
+
 @media screen and (min-width: 1024px) and (max-width: 3000px) {
-    body {
+    * {
+        font-family: 'verdana', 'Arial Narrow', Arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+        /*box-sizing: border-box;*/
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    html, body {
+        height: 100vh;
+        width: 100vw;
         background-image: linear-gradient(to bottom, #0c1e9485 , #136170, #2db6d1);
     }
 
-    #formulario > p {
-        text-align: center;
-        margin: 10px 0px
+    main {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
     }
 
     section#login {
-        width: 950px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 980px;
+        height: 265px;
+        background-color: #0089a5;
+        border-radius: 20px;
+        transform: translate(-50%, -50%);
     }
 
     section#login > div#imagem {
         float: right;
         width: 50%;
         height: 100%;
-        background-position: center center;
     }
 
-    div#formulario > h1 {
-        font-size: 2em;
-    }
-    div#formulario > p {
-        font-size: 1.2em;
+    div#formulario {
+        background-color: #ffffff;
+        width: 50%;
+        float: left;
+        padding: 10px;
     }
 
+    div#formulario > h1{
+        text-align: center;
+    }
+
+    div#formulario > p{
+        text-align: center;
+    }
+
+    #formulario > p {
+        text-align: center;
+        margin: 10px 0px 
+    }
+
+    .botao {
+            padding: 1px;
+            display: block;
+            font-size: 1em;
+            background-color: #2197b0;
+            color: white;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+            height: 40px;
+            cursor: pointer;
+            margin-top: 10px;
+    }
+
+    div.campo {
+        background-color: #0c1f94;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        height: 40px;
+    }
+
+    div.campo span {
+        color: white;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+
+    div.campo input {
+        width: calc(100% - 48px);
+        height: 35px;
+        border-radius: 8px;
+        position: relative;
+        top: -4px;
+    }
+
+    form > a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 5px;
+        border: 1px solid #29c3e2;
+        border-radius: 5px;
+    }
+    form > a:hover {
+        background-color: #4fe2ff;
+        border-radius: 5px;
+    }
+    
+    form > a > span {
+        font-size: 0.1em;
+        
+    }
     
 }

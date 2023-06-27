@@ -23,15 +23,15 @@ html, body {
     background-image: linear-gradient(to bottom, #146575, #34d2f1);
 }
 
-#formulario > p {
-    text-align: center;
-    margin: 5px 0px
-}
-
 main {
     position: relative;
     height: 100vh;
     width: 100vw;
+}
+
+#formulario > p {
+    text-align: center;
+    margin: 5px 0px
 }
 
 section#login {

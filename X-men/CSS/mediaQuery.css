@@ -1,0 +1,38 @@
+@media (max-width:1120px) {
+    header img {
+        max-width: 190px;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0  auto;
+    }
+
+    main .personagens {
+        margin-top: 37px;
+    }
+
+    main section.personagens h1.titulo {
+        font-size: 20px;
+    }
+
+    ul {
+        gap: 10px;
+    }
+
+    section.apresentacao img.personagem-grande {
+        width: 350px;
+        height: 350px;
+    }
+
+    li.personagem {
+        width: 80px;
+    }
+
+    div.informacoens-personagem p.descricao-personagem {
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}

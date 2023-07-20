@@ -83,7 +83,10 @@ nav.mobile-menu ul li:hover{
 
 nav.mobile-menu ul li a {
     text-decoration: none;
-    color: black;
+    color: #0c1f94;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.486);
 }
 
 div.logo {

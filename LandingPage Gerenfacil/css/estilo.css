@@ -8,7 +8,7 @@ cor3 - #196ce7 Azul claro
 :root {
     --cor1:#0c1f94;
     --cor2:#196ce7;
-    --cor3:#2197b0;
+    --cor3:#2197b0; 
 }
 
 * {
@@ -107,8 +107,17 @@ nav.desktop-menu li {
 }
 
 ul li a {
-    color: white;
+    color: #0c1f94;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.486);
     text-decoration: none;
+}
+
+ul li a:hover{
+    transition: 1.2s;
+    font-size: 1.5em;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.842);
 }
 
 .chamada1 {

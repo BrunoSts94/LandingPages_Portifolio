@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-mario {
+    height: 200px;
+}
+
+body{
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.header a {
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: rgb(240, 0, 0);
+    transition: 0.5s;
+}
+
+.header img {
+    height: 60px;
+}
+
+.principal{
+    
+    align-items: center;
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+button {
+    background-color: rgb(204, 2, 2);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.esquerda {
+    width: 40%;
+    color: white;
+}
+
+
+.video{
+    position: fixed;
+    top: 0;
+    z-index: -1;  /*Joga o video para camada de trás*/   
+}
+
+video{
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+}
+
+.mascara{
+    background-color: rgba(0, 0, 0, 0.623);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.mascara-formulario{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.link-whatsapp img{
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.formulario{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -490px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline-color: rgb(123, 206, 0);
+}
+
+textarea{
+
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline-color: rgb(123, 206, 0);
+}
+
+
+
+
+
+/*Media query*/
+@media(max-width: 1100px){
+    .principal{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .esquerda{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagemMario{
+        height: 80vw;
+    }
+
+    .header {
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header img{
+        display: none;
+    }
+
+    .header a {
+        font-size: 20px;
+    }
+}

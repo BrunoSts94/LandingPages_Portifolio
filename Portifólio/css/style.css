@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: #262626;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+
+header a:hover{
+    transition: 0.4s;
+    color: #8d8d8d;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.inicial, .meio{
+    width: 100%;
+    height: 650px;
+    background-color: #f11515;
+    display: flex;
+}
+
+.inicial{
+    height: 800px;
+}
+
+audio{
+    margin-top: 50px;
+}
+
+.bemVindo{
+    width: 60%;
+    height: 100%;
+    background-color: #733061;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin: 60px 0;
+    text-shadow: 0px 5px 10px #262626;
+}
+
+.bemVindo p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0px 100px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.sobre{
+    background-color: #ffffff;
+    width: 40%;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    color: #733061;
+}
+
+.sobre h2{
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sobre p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.primeiro-par{
+    margin-top: 50px;
+}
+
+.sobre img{
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #733061c0;
+}
+
+.projetos{
+    background-color: #262626;
+    width: 40%;
+    text-align: center;
+}
+
+.projetos h2{
+    color: #cacaca;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.projetos ul{
+    display: inline-block;background-color: white;
+}
+.projetos ul li{ 
+    color: #cacaca;
+    font-size: 20px;
+    left: 1px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    background-color: #f11515;
+}
+
+.caixa1{
+    width: 80%;
+    margin-left: 50px;
+    display: flex;
+}
+
+.caixa1-esquerda{
+    width: 70%;
+    color: #cacaca;
+    font-size: 24px;
+}
+
+.caixa1-esquerda p{
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.caixa1-direita{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa1-esquerda p:hover{
+    color: #9e5b8c;
+    text-shadow: 0px 0px 3px #e4d3df57;
+}
+
+span{
+    color: #854574;
+    cursor: pointer;
+    margin-bottom: 27px;
+}
+
+span:hover{
+    color: #cacaca;
+}
+
+.notbook{
+    width: 60%;
+}
+
+.notbook img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.final{
+    width: 100%;
+    height: 650px;
+    background-color: rgba(166, 51, 135, 1);
+    display: flex;
+}
+
+.final h2{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.final h3{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.final img{
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #262626;
+}
+
+.redesSociais{
+    width: 50%;
+    float: left;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.redesSociais h2, .redesSociais h3, .formEmail h3 {
+    letter-spacing: 2px;
+    text-shadow: 0px 5px 10px #262626;
+}
+
+.redesSociais h3{
+    margin-bottom: 50px;
+    
+}
+
+.containerIcones{
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.containerIcones a{
+    text-decoration: none;
+}
+
+.containerIcones img:hover{
+    transform: translate(-0px, -10px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.705);
+    transition: 0.5s;
+    border: 3px solid white;
+    
+}
+
+.formEmail{
+    width: 50%;
+    float: right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formEmail h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    width: 80%;
+    height: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #a1a1a173;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    outline-color: #9e5b8c;
+}
+
+textarea{
+    width: 80%;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    outline-color: #9e5b8c;
+}
+
+button{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(166, 51, 135, 1);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #d487c0;
+    transition: 0.4s;
+}
+
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 1190px){
+    .inicial{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bemVindo, .sobre, .projetos, .redesSociais, .formEmail{
+        width: 100vw;
+    }
+
+    .meio, .final{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inicial, .meio, .final{
+        height: auto;
+    }
+
+    .ultimo-par{
+        margin-bottom: 50px;
+    }
+
+    .bemVindo{
+
+    }
+
+    .sobre{
+        
+    }
+
+    .notbook
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){ 
+
+}
+

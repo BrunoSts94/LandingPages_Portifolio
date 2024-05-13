@@ -1,6 +1,4 @@
-<p align="center">
-  <img src=".github/preview.png" width="100%"/>
-</p>
+
 
 ## 📋 Projeto
 Esse é um projeto de um carrocel de imagens, onde pude colocar em prática mais conhecimentos sobre Javascript e animações css.

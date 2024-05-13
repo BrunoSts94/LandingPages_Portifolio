@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans serif;
+}
+
+body{
+    font-size: 16px;
+    background-color: black;
+}
+
+header{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+
+header a{
+    color: #eee;
+    margin-right: 40px;
+    font-weight: 300;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    margin-top: -54px;
+    overflow: hidden;
+}
+
+main .list .list-item{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+main .list .list-item img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%)
+}
+
+.saiba {
+    color: white;
+
+}
+
+.content{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    padding-right: 30%;
+    width: 80%;
+    color: #eee;
+    text-shadow: 0 5px 10px #0004;
+}
+
+.content p{
+    font-size: 1.3em;
+}
+
+h2{
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 40px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.content button{
+    border: none;
+    background: linear-gradient(to top, #B53704, #E97328);
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #eee;
+    text-transform: uppercase;
+}
+
+button:hover{
+    border: 2px solid #eee;
+}
+
+.thumb{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    display: flex;
+    gap: 20px
+}
+
+.thumb-item{
+    width: 135px;
+    height: 200px;
+    position: relative;
+    z-index: 3;
+}
+
+.thumb-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content-thumb{
+    color: #eee;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+.arrows{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    bottom: 120px;
+    left: 120px;
+    width: 300px;
+}
+
+.arrows button{
+    border-radius: 10px;
+    border: none;
+    padding: 12px 17px;
+    background-color: rgba(219, 219, 219, 0.308);
+    color: #eee;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.arrows button:hover{
+    background-color: #eee;
+    color: black;
+    transition: 0.5s;
+}
+
+/*ANIMAÇÕES*/
+.container.nextjs .thumb{
+    animation: effectNextThumb 0.5s linear 1 forwards;
+}
+
+@keyframes effectNextThumb{
+    from {
+        transform: translateX(150px);
+    }
+}
+
+/*movimento ultima thumb*/
+.container.nextjs .thumb .thumb-item:nth-last-child(1){
+    animation: effectLastThumb 0.5s linear 1 forwards;
+}
+
+@keyframes effectLastThumb{
+    from{
+        width: 0;
+        opacity: 0;
+    }
+}
+
+/*Textos principais*/
+
+main .list .list-item:nth-last-child(1) .content h2,
+main .list .list-item:nth-last-child(1) .content p,
+main .list .list-item:nth-last-child(1) .content button{
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 0.4s linear 1 forwards;
+}
+
+@keyframes showContent{
+    to{
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }    
+}
+
+main .list .list-item:nth-last-child(1) .content h2{
+    animation-delay: 1.0s;
+}
+
+main .list .list-item:nth-last-child(1) .content p{
+    animation-delay: 1.2s;
+}
+
+main .list .list-item:nth-last-child(1) .content button{
+    animation-delay: 1.6s;
+}
+
+/*EFEITO DE CRESCIMENTO DA IMAGEM*/
+.container.nextjs .list .list-item:nth-last-child(1) img {
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    border-radius: 30px;
+    animation: showMainImage 0.5s linear 1 forwards;
+}
+
+@keyframes showMainImage{
+    to{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+/*EFEITO DE DIMINUIÇÃO DA IMAGEM*/
+main.backjs .list .list-item:nth-child(1) img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: hideMainImage 0.5s linear 1 forwards;
+    z-index: 2;
+}
+
+@keyframes hideMainImage{
+    to{
+        width: 135px;
+        height: 200px;
+        border-radius: 10px;
+        left: 50%;
+        bottom: 50px;
+    }
+}

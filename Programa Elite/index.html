@@ -7,15 +7,19 @@
     <title>Elite Treinamentos</title>
 </head>
 <body >
+    <div class="mascara" onclick="hiddenMask()"></div>
     <header id="header">  
-        <nav>
+        
+        <nav class="itens-menu">
             <a href="">Home</a>
             <a href="#sobre">Sobre</a>
             <a href="#servicos">Serviços</a>
             <a href="">Clientes</a>
             <a href="#contato">Contato</a>
         </nav>
-        <img src="assets/logo-pequena.png" alt="">
+        <img src="assets/menu.png" alt="menuHamburguer" class="menuHamburguer" onclick="showMenu()">
+        <img src="assets/logo-pequena.png">
+        
     </header>
 
     <main class="principal">
@@ -25,9 +29,11 @@
             </div>
         </section>
 
-        <section class="section-sobre">
 
-            <div class="container-texto-sobre" id="sobre">
+
+        <section class="section-sobre" id="sobre">
+
+            <div class="container-texto-sobre" >
                 <h2>QUEM SOMOS?</h2>
                 <P>Elite Treinamentos é uma empresa especializada em Segurança do Trabalho que prima pelo desenvolvimento e aperfeiçoamento para um novo patamar profissional, por isso nosso atendimento é de forma personalizada, com compromisso de oferecer a sua empresa as soluções necessárias no quesito segurança e treinamentos.</P>
                 <p>Com uma equipe altamente qualificada e total proficiência, somos especializados em treinamentos in company e Turmas Abertas, efetuando os treinamentos de um modo dinâmico e inovador para sua real necessidade.</p>
@@ -39,60 +45,76 @@
             
         </section>
 
+
+
         <section class="section-servicos">
+            <div class="show-infos-services">
+                <h2 class="title-services"></h2>
+                <p class="txt-services"></p>
+                <p class="txt-services2"></p>
+            </div>
+
             <div class="container-img-servicos" id="servicos">
                 <h2>NOSSOS SERVIÇOS</h2>
-                <img src="assets/sobre-img.jpg" alt="imagem ilustrativa dos serviços prestados pela empresa">
+                <img src="assets/nossos-servicos.jpg" alt="imagem ilustrativa dos serviços prestados pela empresa">
             </div>
+
             <div class="container-cards-servicos">
                 <div class="container-cards">
-                    <div class="card c1">
+
+                    <div class="card c1" onclick="showInfos(opc1)">
                         <div class="img-card">
-                            <img src="assets/sobre-img.jpg" alt="">
+                            <img src="assets/assessoria-img.jpeg">
                         </div>
                         <div class="text-card">
                             <p>Assessoria em segurança do trabalho</p>
                         </div>
                     </div>
-                    <div class="card c2">
+
+                    <div class="card c2" onclick="showInfos(opc2)">
                         <div class="img-card">
-                            <img src="assets/sobre-img.jpg" alt="">
+                            <img src="assets/gerenciamento-risco-img.jpeg" alt="">
                         </div>
                         <div class="text-card">
                             <p>Programa de gerenciamento de Riscos (PGR) </p>
                         </div>
                     </div>
-                    <div class="card c3">
+
+                    <div class="card c3" onclick="showInfos(opc3)">
                         <div class="img-card">
-                            <img src="assets/sobre-img.jpg" alt="">
+                            <img src="assets/analise-img.jpeg">
                         </div>
                         <div class="text-card">
                             <p>Análise preliminar de Riscos (APR)</p>
                         </div>
                     </div>
-                    <div class="card c4">
+
+                    <div class="card c4"  onclick="showInfos(opc4)">
                         <div class="img-card">
-                            <img src="assets/sobre-img.jpg" alt="">
+                            <img src="assets/ppr-img.jpeg">
                         </div>
                         <div class="text-card">
                             <p>Programa de Proteção Respiratória (PPR) </p>
                         </div>
                     </div>
-                    <div class="card c5">
+
+                    <div class="card c5"  onclick="showInfos(opc5)">
                         <div class="img-card">
-                            <img src="assets/sobre-img.jpg" alt="">
+                            <img src="assets/palestra-img.jpeg">
                         </div>
                         <div class="text-card">
                             <p>Palestras de SIPAT</p>
                         </div>
                     </div>
+
                     <div class="card c6">
-                        <div class="img-card">
-                            <img src="assets/img-treinamento.jpeg" alt="">
+                        <a href="treinamentos.html">
+                            <div class="img-card">
+                            <img src="assets/treinamento-img.jpeg">
                         </div>
                         <div class="text-card">
                             <p>Treinamentos (NRs)</p>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
                 
@@ -114,7 +136,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#dfa338"><path d="M799.13-100.78q-128.39 0-253.78-55.91-125.39-55.92-228.79-158.74-103.39-103.4-159.3-229.07-55.91-125.67-55.91-254.07 0-25.91 17.08-43.28 17.09-17.37 43-17.37h161.44q27 0 44.78 14.31 17.79 14.3 23.18 39.17l25.43 128.13q4.26 24.48-.72 41.7-4.97 17.21-19.76 30.3l-100.39 93.48q17.74 30.78 41.85 60.76 24.11 29.98 54.85 59.72 28.17 28.17 56.52 50.71 28.35 22.55 58.43 40.03L605-397.18q15.22-14.65 35.37-20.28 20.15-5.63 42.63-1.37l122.74 26.31q25.87 7.39 39.67 23.82 13.81 16.44 13.81 41.31v165.96q0 25.91-17.37 43.28t-42.72 17.37Z"/></svg><a href="https://wa.me/555496160701" target="_blank">(54) 96160701</a>
                     </p>
                     <p class="container-mail">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#dfa338"><path d="M162.87-151.87q-37.78 0-64.39-26.61t-26.61-64.39v-474.26q0-37.78 26.61-64.39t64.39-26.61h634.26q37.78 0 64.39 26.61t26.61 64.39v474.26q0 37.78-26.61 64.39t-64.39 26.61H162.87ZM480-429.72l-317.13-200v386.85h634.26v-386.85L480-429.72Zm0-87.41 317.13-200H162.87l317.13 200ZM162.87-629.72v-87.41 474.26-386.85Z"/></svg><a href="">elitetreinamentos_rs@outlook.com</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#dfa338"><path d="M162.87-151.87q-37.78 0-64.39-26.61t-26.61-64.39v-474.26q0-37.78 26.61-64.39t64.39-26.61h634.26q37.78 0 64.39 26.61t26.61 64.39v474.26q0 37.78-26.61 64.39t-64.39 26.61H162.87ZM480-429.72l-317.13-200v386.85h634.26v-386.85L480-429.72Zm0-87.41 317.13-200H162.87l317.13 200ZM162.87-629.72v-87.41 474.26-386.85Z"/></svg><a href="mailto:elitetreinamentos_rs@outlook.com">elitetreinamentos_rs@outlook.com</a>
                     </p>
                 
                 
@@ -163,7 +185,7 @@
             </div>
 
             <div class="cnpj">
-                <p>CNPJ xxxxxxxxx</p>
+                <p>CNPJ 51.645.511/0001-00</p>
             </div>
         </div>
     </footer>

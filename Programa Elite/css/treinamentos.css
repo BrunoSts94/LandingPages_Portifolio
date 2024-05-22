@@ -28,7 +28,7 @@ header{
     border-bottom: 1px solid #dfa338;
 }
 
-nav{
+header nav{
     width: 80%;
 }
 
@@ -58,23 +58,66 @@ body{
 
 main{
     width: 80%;
-    background: linear-gradient(to top, #fbf390, #ffd04e, #dfa338, #ce9d3c);
-    padding: 50px;
+    background: linear-gradient(to left, #fbf390, #ffd04e, #dfa338, #ce9d3c);
     margin: 50px auto;
     text-align: center;
     border-radius: 15px;
 }
 
-h1, h2{
-    margin-bottom: 20px;
-    text-shadow: 0px 2px 5px #00000041;
+section{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    
 }
 
-p{
+.img-section{
+    width: 20%;
+    margin-right: 50px;
+}
+
+section img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: -10px 0 10px 5px #00000062;
+}
+
+.info-section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.info-section h2{
     margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: -10px 2px 10px #00000062;
+}
+
+.info-section p{
+    margin-bottom: 20px;
     font-size: 18px;
-    font-weight: 500;
-    text-shadow: 0px 2px 6px #00000038;
+    font-family: 'Noto serif', serif;
+}
+
+.info-section a{
+    color: #000000;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    box-shadow: -5px 2px 10px 5px #00000062;
+}
+
+.info-section a:hover{
+    color: #dfa338;
+    transition: 0.5s;
 }
 
 /*Footer*/
@@ -144,7 +187,7 @@ footer{
     width: 50%;
     text-align: end;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     letter-spacing: 1px;
     font-weight: 200;
     font-size: 15px;

@@ -18,6 +18,21 @@ h1, h2, h3{
     font-family: "Roboto", sans-serif;
 }
 
+.menuHamburguer{
+    display: none;
+}
+
+.mascara{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #13161bec;
+    
+    z-index: 1;
+}
+
 header{
     width: 100%;
     display: flex;
@@ -138,6 +153,36 @@ main{
 
 .section-servicos{
     display: flex;
+    position: relative;
+}
+
+.show-infos-services{
+    visibility: hidden;
+    position: absolute;
+    top:50%;
+	left:50%;
+    padding: 30px;
+	transform: translate(-50%, -50%);
+    background: linear-gradient(to top, #fbf390, #ffd04e, #dfa338, #ce9d3c);background-color: #ce9d3c;
+    width:800px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.show-infos-services h2{
+    text-align: center;
+    text-shadow: 0px 5px 10px #2b292a79;
+    margin-bottom: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.show-infos-services p{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+    text-indent: 20px;
 }
 
 .container-img-servicos{
@@ -407,6 +452,90 @@ footer{
     letter-spacing: 1px;
     font-weight: 200;
     font-size: 15px;
+}
+
+
+/*Versão mobile*/
+@media screen and (max-width: 800px){
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        margin: 0;
+    }
+
+    header img,  header a{
+        margin: 0;
+    }
+
+    header a{
+        margin-bottom: 10px;
+    }
+
+    header nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
+    .menuHamburguer{
+        display: block;
+        width: 40px;
+        margin-bottom: 20px;
+    }
+
+    .container-img-sobre{
+        display: none;
+    }
+
+    .section-sobre{
+        padding: 0;
+    }
+
+    .container-texto-sobre{
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-texto-sobre h2{
+        padding: 0;
+        background-color: #3d3b3c;
+    }
+    .container-texto-sobre p{
+        padding: 0;
+        background-color: #3d3b3c;
+    }
+
+    .section-servicos{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .container-img-servicos{
+        width: 100%;
+        background: linear-gradient(to bottom, #ce9d3c, #dfa338);
+        margin: 0;
+        text-align: center;
+    }
+
+    .container-img-servicos img{
+        display: none;
+    }
+
+    .container-cards-servicos{
+        width: 100%;
+        background: linear-gradient(to bottom, #dfa338 10%, #ffd04e 80%, #fbf390 );
+    }
 }
 
 

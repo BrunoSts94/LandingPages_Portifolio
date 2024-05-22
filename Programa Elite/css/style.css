@@ -576,6 +576,11 @@ footer{
     .container-form{
         width: 100%;
         text-align: center;
+        padding: 20px 15px;
+    }
+
+    form{
+        width: 95%;
     }
 
     .container-form h2{

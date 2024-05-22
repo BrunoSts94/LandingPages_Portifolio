@@ -188,7 +188,6 @@ main{
 .container-img-servicos{
     width: 35%;
     padding: 50px 30px 50px 50px;
-    background: linear-gradient(to right, #ce9d3c, #dfa338);
 }
 
 .container-img-servicos h2{
@@ -534,6 +533,71 @@ footer{
         width: 100%;
         background: linear-gradient(to bottom, #dfa338 10%, #ffd04e 80%, #fbf390 );
     }
+
+    .show-infos-services{
+        width: 90%;
+    }
+
+    .show-infos-services h2{
+        font-size: 18px;
+    }
+
+    .show-infos-services p{
+        font-size: 16px;
+    }
+
+    .section-contato{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .container-textos-contato{
+        width: 100%;
+        border: none;
+        border-bottom: 4px solid #dfa338;
+        text-align: center;
+    }
+
+    .container-textos-contato h2{
+        font-size: 20px;
+    }
+
+    .container-textos-contato p{
+        font-size: 18px;
+    }
+
+    .container-form{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-form h2{
+        font-size: 18px;
+    }
+
+    .container-foter-cima{
+        padding: 20px;
+    }
+    .container-foter-cima img{
+        width: 150px;
+        margin: 0;
+    }
+
+    .container-footer-baixo{
+        padding: 20px;
+    }
+
+    .footer-redes-sociais p{
+        font-size: 12px;
+    }
+
+    .cnpj p{
+        font-size: 12px;
+    }
+
+    
 }
 
 

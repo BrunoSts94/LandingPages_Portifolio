@@ -188,6 +188,7 @@ main{
 .container-img-servicos{
     width: 35%;
     padding: 50px 30px 50px 50px;
+    background: linear-gradient(to right, #ce9d3c, #dfa338);
 }
 
 .container-img-servicos h2{

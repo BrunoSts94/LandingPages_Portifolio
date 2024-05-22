@@ -554,6 +554,7 @@ footer{
     }
 
     .container-textos-contato{
+        padding: 20px;
         width: 100%;
         border: none;
         border-bottom: 4px solid #dfa338;

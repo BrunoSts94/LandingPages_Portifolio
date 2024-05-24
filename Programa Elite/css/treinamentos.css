@@ -186,9 +186,39 @@ footer{
 .cnpj{
     width: 50%;
     text-align: end;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: "Roboto";
     letter-spacing: 1px;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+/*Versão mobile*/
+@media screen and (max-width: 800px){
+    section{
+        flex-direction: column;
+        margin: 0;
+        padding: 40px 20px;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 3px solid #3d3b3c;
+    }
+
+    .img-section{
+        width: 60%;
+    }
+
+    .cnpj{
+        font-size: 11px;
+    }
+
+    .container-foter-cima img{
+        width: 200px;
+    }
+
+    .container-foter-cima svg{
+        width: 45px;
+
+    }
+
 }

@@ -1,0 +1,66 @@
+
+@media(max-width: 480px){
+    header{
+        .list-microsoft{
+            display: none;
+        }
+
+        .list-microsoft-mobile{
+            display: block;
+        }
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .img-pc{
+        display: none;
+    }
+
+    .img-resp{
+        display: block;
+    }
+
+    .carousel-inner{
+        height: 520px;
+    }
+
+    .slide{
+        .carousel-control-next, .carousel-control-prev{
+            top: -50px;
+        }
+    }
+    
+
+    .carousel-content{
+        width: 90%;
+        position: static;
+        margin-top: 20px;
+
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+
+    .links{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .wrapper-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner{
+        flex-direction: column;
+        margin: 40px 0;
+
+        .card{
+            width: 100%;
+            position: static;
+            padding: 5%;
+        }
+    }
+}

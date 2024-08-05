@@ -3,7 +3,7 @@
 </p>
 
 ## 📋 Projeto
-Esse é um projeto web para consulta de previsão do tempo.
+Esse é um projeto web para consulta de previsão do tempo, onde utilizei como tecnologia para desenvolvimento React, consumindo uma API para obter informações referentes a previsão do tempo.
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 

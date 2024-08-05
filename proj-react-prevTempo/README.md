@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./src/assets/background.png" width="100%"/>
+</p>
+
 ## 📋 Projeto
 Esse é um projeto web para consulta de previsão do tempo.
 ## 🚀 Tecnologias

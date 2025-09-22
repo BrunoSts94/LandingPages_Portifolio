@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    
+    
+    <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/08/27/23/20250827232430-70DSCTJN.js" defer></script>
+    
+    
+    <title>Projeto Nescafé</title>
+  </head>
+
+  <body class="bg-[url('./assets/fundo.jpg')] bg-cover bg-center  overflow-hidden pl-20">
+    <div class="circulo"></div>
+    <img src="./assets/logo.png" alt="logo-starbucks" class="logo w-[200px]" />
+    
+    <div class="container-conteudo">
+        <div class="container-textos">
+            <h2>Desfrute bons momentos com <span>Nescafé!</span></h2>
+            <p>Nescafé nasceu de um desafio. Em 1929, o governo brasileiro, precisando de soluções para não desperdiçar e nem desvalorizar a grande produção de café daquele ano, pediu ajuda para a Nestlé.</p>
+            <p>Foram quase 10 anos de estudo até encontrarmos a resposta: um café solúvel que conservava o sabor e aroma natural do café, feito só com adição de água à uma xícara! Nunca tinha sido tão prático, rápido e fácil fazer um café. O sucesso foi verdadeiro, e em 24 meses Nescafé já estava sendo apreciado em mais de 30 países. Hoje você encontra Nescafé tanto na versão solúvel, quanto para coar.</p>
+            <button>Saiba mais</button>
+        </div>
+
+        <div class="container-imagem">
+            <img src="./assets/img1.png" alt="copo-starbucks" class="imagem-copo"/>
+        </div>
+    </div>
+
+    <div class="container-menu">
+        <img src="./assets/thumb1.png" alt="copo-starbucks" onclick="trocaImagem('./assets/img1.png')"/>
+        <img src="./assets/thumb2.png" alt="copo-starbucks" onclick="trocaImagem('./assets/img2.png')"/>
+        <img src="./assets/thumb3.png" alt="copo-starbucks" onclick="trocaImagem('./assets/img3.png')"/>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

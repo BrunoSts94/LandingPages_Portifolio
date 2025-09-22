@@ -1,40 +1,4 @@
 
-.container-conteudo{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.container-textos{
-    width: 600px;
-    color: white;
-}
-
-h2{
-    color: white;
-    font-size: 70px;
-    font-weight: 700;
-}
-
-p{
-    color: white;
-    font-size: 16px;
-}
-
-span{
-    color: #c20d0d;
-}
-
-button{
-    background-color: #c20d0d;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 30px;
-}
 
 button:hover{
     background-color: #ee4343;
@@ -96,8 +60,6 @@ button:hover{
     }
     
 }
-
-
 
 .bpMessageAvatarImage{
     color: turquoise;

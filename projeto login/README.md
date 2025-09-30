@@ -1,32 +1,16 @@
-## 📋 Gerenciador de tarefas
-Esse é um projeto pessoal, sobre javascript e node, onde pude reforçar e praticar mais conceitos sobre essas tecnologias.
+## 📋 Pagina Login Gerenfacil
+Esse é um projeto academico, nele pude colocar em prática os primeiros aprendizados sobre font-end, criando uma interface simples de login.
 ## 🧐 Sobre
-Nesse gerenciador de tarefas podemos inicialmente adicionar e listar tarefas. Além disso podemos visualizar seu status, altera-lo, renomear e excluir. 
-Também foi trabalhado a captura de erros e exceções.
+Nessa tela de login o usuario pode preencher um campo de email e senha, além disso também temos dois botões para simular um envio de formulario e uma recuperação de senha.
+Também é um projeto que coloquei em pratica a responsividade.
 ## 🤖🛠️ Tecnologias e ferramentas utilizadas
-- Javascript
-- Node js
-- Biblioteca Chalk
-- Biblioteca @Clack/prompts
+- HTML5
+- CSS3
 ## 🖼️ Projeto
-<p>
-  <img width="308" height="213" alt="image" src="https://github.com/user-attachments/assets/05cacddf-6a69-4306-afcf-599a31d67d31" />
-  <img width="267" height="124" alt="image" src="https://github.com/user-attachments/assets/113b330e-b2b2-4739-84a0-4ae804e5e5df" />
+<p align="center">
+  <img width="1209" height="576" alt="image" src="https://github.com/user-attachments/assets/7bf28e2f-83e6-4946-a6c4-3c5d2a7bf302" />
 </p>
 
-<p>
-  <img width="289" height="142" alt="image" src="https://github.com/user-attachments/assets/06a5ef04-9d55-4a6a-ab58-801559eb08b6" />
-  <img width="325" height="215" alt="image" src="https://github.com/user-attachments/assets/a03db02e-ecfb-45b7-bce5-d216461e40cb" />
+<p align="center">
+  <img width="525" height="730" alt="image" src="https://github.com/user-attachments/assets/abbb66af-731a-406a-a7ff-9eec9bc51680" />
 </p>
-
-
-<img width="301" height="225" alt="image" src="https://github.com/user-attachments/assets/1b4a6ba7-7eb6-4b8e-9e4f-898a82a3642d" />
-
-
-
-
-<h1>📝 Projeto</h1>
-<p>Este projeto foi desenvolvido durante o curso de HTML5 e CSS3 do Curso em video.</p>
-
-<p>Seu objetivo foi de criar uma tela de login responsiva, utilizando a metodologia Mobile first.</p>
-<a href="https://brunosts94.github.io/MeuPortifolio/projeto%20login/index">Visualize o site aqui</a>

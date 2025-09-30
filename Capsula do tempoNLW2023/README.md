@@ -10,4 +10,8 @@ Esse é um projeto de uma simples pagina desenvolvido em um minicurso da Rockets
 <p align="center">
   <img width="1717" height="945" alt="image" src="https://github.com/user-attachments/assets/084e293a-620a-422a-8d9d-645feafb7254" />
 </p>
-<a href="https://brunosts94.github.io/MeuPortifolio/Capsula%20do%20tempoNLW2023/index.html">Visualize o Site aqui
+
+<h2 align="center">
+  <a href="https://brunosts94.github.io/LandingPages_Portifolio/Capsula%20do%20tempoNLW2023/index.html">Visualize o Site aqui</a>
+</h2>
+

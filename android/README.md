@@ -14,5 +14,5 @@ Projeto responsivo
 </p>
 
 <h2 align="center">
-  <a href="https://brunosts94.github.io/LandingPages_Portifolio/android/index.html">Visualize o Site aqui</a>
+  <a href="https://brunosts94.github.io/LandingPages_Portifolio/android/ProjAndroid.html">Visualize o Site aqui</a>
 </h2>

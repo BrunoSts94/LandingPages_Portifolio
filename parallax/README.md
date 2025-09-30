@@ -1,10 +1,12 @@
-## 🪖 Projeto Parallax
-Esse é um projeto em HTML e CSS, com o objetivo de explorar o efeito parallax em uma pagina.
-## 🖥️ Tecnologias
-Esse projeto foi desenvolvido durante Curso de HTML5,CSS3 e Javascript do Curso em Video com as seguintes tecnologias:
-
+## 📋 Parallax
+Esse é um projeto acadêmico.
+## 🧐 Sobre
+Nesse projeto o objetivo foi aprender o efeito parallax em sites, conforme vamos rolando a página, as imagens vão se movendo dando o efeito.
+## 🤖🛠️ Tecnologias e ferramentas utilizadas
 - HTML5
 - CSS3
-- Git e Github
+## 🖼️ Projeto
 
-<a href="https://brunosts94.github.io/MeuPortifolio/proj-parallax/index.html" target="_blank"> Visualize o Site aqui
+<h2 align="center">
+  <a href="https://brunosts94.github.io/LandingPages_Portifolio/parallax/index.html">Visualize o Site aqui</a>
+</h2>

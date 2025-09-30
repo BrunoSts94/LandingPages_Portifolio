@@ -12,6 +12,7 @@ Também foi aplicado os conceitos de desenvolvimento utilizando a tecnologia CSS
 ## 🖼️ Projeto
 <p align="center">
   <img width="1841" height="914" alt="image" src="https://github.com/user-attachments/assets/e51e06f9-0dcc-4c15-af40-1de2a2073c71" />
+  <img width="486" height="832" alt="image" src="https://github.com/user-attachments/assets/f1d05fb4-01e0-4ee7-9e83-0d6931d57c41" />
 </p>
 
 <h2 align="center">

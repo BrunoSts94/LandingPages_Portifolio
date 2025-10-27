@@ -1,0 +1,28 @@
+{
+  "name": "hairday-template-main",
+  "version": "1.0.0",
+  "description": "Aplicação web para agendamento de corte de cabelo",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch server.json",
+    "build": "webpack",
+    "dev": "webpack server"
+  },
+  "keywords": [],
+  "author": "Bruno dos Santos",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dayjs": "^1.11.18",
+    "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

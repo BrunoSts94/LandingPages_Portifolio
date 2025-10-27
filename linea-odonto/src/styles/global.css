@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0e4f5e;
+}
+
+body {
+  background-color: #24A7C3;
+  color: #146c80;
+}
+
+.mascara img{
+ position: absolute;
+ width: 100%;
+ object-fit: cover;
+ height: 100%;
+ opacity: 50%;
+ z-index: -1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: calc(100vh - 1.5rem);
+  grid-template-areas: "form schedule";
+  padding: 0.75rem;
+}
+
+.logo {
+  width: 150px;
+  height:60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  background-color: #146c80;
+  border-bottom-right-radius: 0.75rem;
+}
+
+@media (max-width: 1100px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

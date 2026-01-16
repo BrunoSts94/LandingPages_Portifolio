@@ -3,6 +3,7 @@
     
     header{
         top: 40px;
+        align-items: end;
     }
 
     .container-header-desktop{
@@ -12,21 +13,54 @@
     .container-menu-mobile{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: end;
         justify-content: center;
+        width: 100%;
+        & img{
+            width: 50px;
+            cursor: pointer;
+            z-index: 20;
+            transform: rotate(90deg);
+        }
     }
 
-    .container-menu-mobile img{
-        cursor: pointer;
+    .nav-mobile{
+        width: 100%;
+        display: flex;
+        justify-content: end;
     }
 
     .menu-header{
-        display: none;
-        width: 100vw;
-        background-color: #202020cb;
+        position: fixed;
+        top: 40px;
+        left: 0;
+
+        width: 100%;
+
+        display: flex;
         flex-direction: column;
-        gap: 8px;
+        justify-content: center;
         align-items: center;
+
+        background-color: var(--escuro-secundario);
+
+        /* estado fechado */
+        transform: translateY(-100%);
+        opacity: 0;
+
+        transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+
+        z-index: 10;
+        padding: 15px 0;
+    }
+
+    .menu-header.open {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    #menu-icon{
+        transition: 0.8s;
     }
 
     main{

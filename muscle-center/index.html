@@ -19,11 +19,14 @@
         <div class="container-header-desktop">
             <div
             class="container-icon-header">
+
                 <img
                 src="assets/icons/Dumbbell.svg"
                 alt="Ícone de halteres">
+
                 <h3>Muscle <span class="center">Center</span></h3>
             </div>
+
             <nav class="nav-desktop">
                 <ul
                 class="menu-header">
@@ -33,6 +36,7 @@
                     <li><a href="#plans-section">Planos</a></li>
                 </ul>
             </nav>
+
             <div
             class="container-icon-socialmedia-header">
                 <a href="#"><img
@@ -48,10 +52,15 @@
         </div>
         
         <div class="container-menu-mobile">
-            <img src="assets/icons/Menu.svg" alt="Ícone do menu">
-            <nav class="nav-mobile">
+            <img 
+            src="assets/icons/Menu.svg" 
+            alt="Ícone do menu"
+            id="menu-icon">
+
+            <nav class="nav-mobile" >
                 <ul
-                class="menu-header">
+                class="menu-header"
+                id="menu-header">
                     <li><a href="#hero-section">Início</a></li>
                     <li><a href="#about-section">Sobre</a></li>
                     <li><a href="#services-section">Serviços</a></li>
@@ -65,13 +74,14 @@
 
         <section class="hero-section">
             <div class="hero-div-escritas">
-                <h1 class="title-mobile"> <img src="assets/icons/Dumbbell.svg" alt="">MUSCLE <span class="center">CENTER</span></h1>
-                <h2>DESDE - 2019</h2>
-                <h1>GUIAMOS VOCE RUMO AO SHAPE DE SUCESSO!</h1>
-                <p>Aqui o resultado aparece, o esforço vale apena. <br>Te ajudamos a conquistar seu objetivo com profissionalismo e dedicação.</p>
-                <button>Entre em contato</button>
+                <h1 class="title-mobile"> 
+                    <img src="assets/icons/Dumbbell.svg" alt="">MUSCLE <span class="center">CENTER</span>
+                </h1>
+                <h2 class="hero-h2">DESDE - 2019</h2>
+                <h1 class="hero-h1">GUIAMOS VOCE RUMO AO SHAPE DE SUCESSO!</h1>
+                <p class="hero-p">Aqui o resultado aparece, o esforço vale apena. <br>Te ajudamos a conquistar seu objetivo com profissionalismo e dedicação.</p>
+                <button class="hero-button">Matricule-se</button>
             </div>
-            
         </section>
 
         <section class="about-section">
@@ -138,6 +148,10 @@
 
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/animatiosGsap.js"></script>
 </body>
 </html>

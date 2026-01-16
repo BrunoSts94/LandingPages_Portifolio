@@ -30,6 +30,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 30;
 }
 
 .center{
@@ -135,17 +136,18 @@ main{
 }
 
 .hero-div-escritas button{
-    width: 300px;
-    padding: 30px 10px;
+    width: 230px;
+    padding: 20px 0px;
     color: var(--branco);
 
     background: linear-gradient(to top, var(--laranja), #df825b);
-    border-radius: 30px;
+    border-radius: 5px;
     border: none;
     margin-top: 50px;
     font-size: 1.5rem;
     cursor: pointer;
     transition: 0.8s;
+    opacity: 0;
 }
 
 .hero-div-escritas button:hover{

@@ -1,5 +1,12 @@
 
-@media(max-width: 760px){
+@media(max-width: 1300px){
+    .div-left-about{
+        align-items: start;
+        padding: 8vw 2vw 5vw 10vw;
+    }
+}
+
+@media(max-width: 1000px){
     
     header{
         top: 40px;
@@ -81,30 +88,16 @@
         width: 100%;
         
         justify-content: center;
-        padding: 0 40px;
+        padding: 0 80px;
         gap: 1rem;
     }
 
-    .hero-div-escritas h2{
-        font-size: 1.5rem;
-        color: var(--laranja);
-    }
-
-    .hero-div-escritas h1{
-        font-family: "Bebas Neue", sans-serif;
-        letter-spacing: 2px;
-        font-size: 2.5rem;
-    }
-
     .hero-div-escritas p{
-        font-size: 1.3rem;
+        letter-spacing: 1px;
         font-weight: 200;
     }
 
     .hero-div-escritas button{
-        width: 250px;
-        padding: 20px 10px;
-        font-size: 1.5rem;
         font-weight: 600;
     }
 
@@ -126,17 +119,21 @@
     .container-card-info-founder{
         flex-direction: column;
         align-items: center;
-        gap: 0px;
+        gap: 20px;
     }
 
     .card-founder{
         width: 70%;
-    & h3{
+        height: 395px;
         
-    }
-    & p{
-        
-    }
+        & h3{
+            padding: 10px 0;
+            bottom: 95px;
+        }
+        & p{
+            padding: 10px 0;
+            bottom: 95px;
+        }
     }
 
     .infos-cofounder{
@@ -149,13 +146,13 @@
 
     & h3{
         color: var(--laranja);
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin-bottom: 0px;
     }
     & p{
         font-size: 1.2rem;
         letter-spacing: 1px;
-        font-weight: 400;
+        font-weight: 300;
     }
     & button{
         width: 200px;
@@ -196,7 +193,10 @@
         flex-direction: column;
         gap: 20px;
     }
+}
 
-    
-
+@media(max-width: 700px){
+    .hero-div-escritas button{
+        font-size: 1rem;
+    }
 }

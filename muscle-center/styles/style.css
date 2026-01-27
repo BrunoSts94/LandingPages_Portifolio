@@ -165,7 +165,7 @@ a:hover{
 
     & h2{
         color: var(--branco);
-        font-size: clamp(20px, 2.5vw, 2.5vw);
+        font-size: clamp(30px, 2.5vw, 2.5vw);
     }
 }
 

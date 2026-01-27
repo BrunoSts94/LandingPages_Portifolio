@@ -109,86 +109,68 @@
     .div-left-about{
         flex-direction: column;
         width: 100%;
-        padding: 40px 20px;
+        padding: 10vw 5vw;
     }
 
-    .container-left-infos-about h2{
-        font-size: 2rem;
-    }
+    .container-left-infos-about {
+        align-items: center;
+        h2{
+            font-size: clamp(25px, 4vw, 4vw);
+        }
+    }  
 
     .container-card-info-founder{
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 0px;
     }
 
     .card-founder{
-        width: 70%;
-        height: 395px;
-        
-        & h3{
-            padding: 10px 0;
-            bottom: 95px;
-        }
-        & p{
-            padding: 10px 0;
-            bottom: 95px;
-        }
+        max-width: 300px;
+        max-height: 450px;
+        margin-bottom: 30px;
     }
 
     .infos-cofounder{
-    color: var(--branco);
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-    & h3{
-        color: var(--laranja);
-        font-size: 1.5rem;
-        margin-bottom: 0px;
-    }
-    & p{
-        font-size: 1.2rem;
-        letter-spacing: 1px;
-        font-weight: 300;
-    }
-    & button{
-        width: 200px;
-        padding: 15px 10px;
         color: var(--branco);
-    
-        background: linear-gradient(to top, var(--laranja), #df825b);
-        border-radius: 30px;
-        border: none;
-        font-size: 1.2rem;
-        cursor: pointer;
-        transition: 1s;
-        margin-top: 40px;
-    }
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        h3{
+            color: var(--laranja);
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
     }
 
     .div-right-about{
         align-items: center;
         width: 100%;
-        padding: 50px 0;
+        padding: 10vw 5vw;
     }
 
     .about-right-descriptions{
         text-align: center;
-        width: 70%;
-        & h3{
-            margin-top: 20px;
+        h3{
+            font-size: clamp(20px, 3vw, 3vw);
         }
-        & h2{
-            color: var(--branco);
-            font-size: 2.2rem;
-            margin: 10px 0 40px 0;
+
+        h4{
+            font-size: clamp(25px, 4vw, 4vw);
         }
     }
 
     .container-about-right-cards{
+        width: 80%;
+        max-width: 500px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -199,4 +181,32 @@
     .hero-div-escritas button{
         font-size: 1rem;
     }
+
+    .div-left-about{
+        padding: 20vw 5vw;
+    }
+
+    .about-right-descriptions{
+        width: 80%;
+    }
+
+    .card-founder{
+        margin-bottom: 0px;
+        height: 360px;
+
+        h3{
+            bottom: 100px;
+        }
+        p{
+            bottom: 100px;
+        }
+    }
+
+    .div-right-about{
+        align-items: center;
+        width: 100%;
+        padding: 20vw 5vw;
+    }
+
+
 }
